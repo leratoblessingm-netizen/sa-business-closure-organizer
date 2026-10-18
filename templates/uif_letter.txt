@@ -1,0 +1,11 @@
+To: Department of Employment and Labour - UIF
+Date: {{DATE}}
+
+RE: UIF DE-REGISTRATION - {{COMPANY_NAME}} - {{REG_NO}}
+
+Please de-register {{COMPANY_NAME}} for UIF. Last employee termination date was prior to closure.
+
+Company: {{COMPANY_NAME}}
+UIF Ref: [PRIVATE]
+
+Thank you.
