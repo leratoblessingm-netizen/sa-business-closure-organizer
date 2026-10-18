@@ -1,0 +1,16 @@
+To: Companies and Intellectual Property Commission (CIPC)
+Date: {{DATE}}
+
+RE: APPLICATION FOR DEREGISTRATION - {{COMPANY_NAME}} - {{REG_NO}}
+
+Dear Sir/Madam,
+
+I hereby apply for deregistration of the above company in terms of CoR40.1.
+
+The company has ceased trading and has no assets or liabilities.
+
+Company: {{COMPANY_NAME}}
+Reg No: {{REG_NO}}
+
+Yours faithfully,
+Director
