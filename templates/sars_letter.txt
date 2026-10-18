@@ -1,0 +1,12 @@
+To: South African Revenue Service (SARS)
+Date: {{DATE}}
+
+RE: REQUEST FOR TAX DE-REGISTRATION - {{COMPANY_NAME}} - {{REG_NO}}
+
+Tax Reference: [PRIVATE - DO NOT PUBLISH]
+
+Please note that {{COMPANY_NAME}} ({{REG_NO}}) has ceased operations.
+We request de-registration for Income Tax, VAT and PAYE.
+
+Yours faithfully,
+{{COMPANY_NAME}}
