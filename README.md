@@ -1,28 +1,17 @@
 # SA Business Closure Organizer
 
-Built after closing a real company in Zamdela that never traded — dealing with CIPC, UIF (Metsimaholo), and SARS deregistration with files named wa_image_8255...jpg
+Private tool for organizing CIPC, SARS, UIF deregistration letters for SA companies that never traded.
 
-## The Problem
-When SARS asks for proof 2 years after you closed, you need:
-- CIPC CoR40.005 certificate
-- ID copy of director
-- Bank statements showing zero trading
-- UIF UI19 termination
-- Affidavit from SAPS
+**Contains NO real company names, ID numbers, tax numbers, or location data. Uses placeholders only.**
 
-Most people lose them in WhatsApp folders.
+## Features
+- CIPC CoR40.1 cover letter template
+- SARS de-registration letter template
+- UIF de-registration letter template
 
-## Solution
-Python tool that:
-- Scans `my_documents/` folder
-- Auto-detects CIPC / UIF / SARS / BANK / ID from filename
-- Renames to `2026-10-15-CIPC-Deregistration.pdf`
-- Copies to clean `organized/` folder
-- Creates `checklist.csv` showing what's MISSING for SARS
+## Usage (offline, private)
+python generate_all.py --company "My Company Pty Ltd" --reg "2021/123456/07"
 
-## How to Use (No data needed)
-```bash
-# 1. Put all PDFs/JPGs in my_documents/
-# 2. Run
-python organizer.py
-# 3. Check organized/ folder
+All output goes to /output/ which is gitignored. Private data never pushed to GitHub.
+
+Educational / personal use only. Not legal advice.
